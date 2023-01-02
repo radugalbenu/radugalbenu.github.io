@@ -137,6 +137,15 @@ publications:
     - title: Converged Systems and Hybrid Cloud
       authors: Dell EMC
 
+projects:
+    title: Trainings
+    assignments:
+      - title: SAFe for Teams
+
+      - title: Red Hat Enterprise Linux 7 
+        tagline: RH124
+
+      - title: "VMware vSphere: Troubleshooting Workshop [V6.5]"
 
 skills:
     title: Skills &amp; Proficiency
