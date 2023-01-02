@@ -73,7 +73,7 @@ experiences:
           - Application: Java, Springboot
           - Cloud provider: AWS
           - Container repository: AWS ECS
-          - Containerization: Docker/EKS (with clusters in multiple regions and autoscaling nodes using cluster-autoscaler for node scaling as well as HPA best on verious metrics for horizontal deployment scaling)
+          - Containerization: Docker/EKS (with clusters in multiple regions and autoscaling nodes using cluster-autoscaler for node scaling as well as HPA based on verious metrics for horizontal deployment scaling)
           - Database: AWS Elasticache (using global datastore in multiple regions for HA and fast DR)
           - Performance testing: Gatling
           - EKS Monitoring and observability: Sysdig Monitoring
