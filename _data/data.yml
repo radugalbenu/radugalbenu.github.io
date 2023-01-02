@@ -44,11 +44,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      As a DevOps Engineer with a passion for cloud native technologies, microservices, and Kubernetes, I have a strong track record of using infrastructure as code and security best practices to deliver reliable and scalable solutions in the fintech industry.
+      As a devops engineer with a passion for cloud native technologies, microservices, and infrastructure as code, I have a strong track record of implementing security best practices on AWS and Kubernetes platforms in the fintech industry. I have experience working within a scaled agile framework, and am skilled at following a GitOps approach to ensure consistent and reliable deployment of code.
 
-      In my current role, I leverage the AWS and Kubernetes platforms to design and implement CI/CD pipelines, deploy and manage microservices, and ensure the security and availability of our systems in a scaled agile framework.
+      In my current role, I have successfully implemented and maintained a microservices architecture using Kubernetes, enabling our team to rapidly release new features and updates. I have also implemented infrastructure as code using tools such as Terraform, enabling us to manage our infrastructure in a transparent and automated manner.
 
-      I am constantly seeking ways to improve our processes and stay up to date on the latest technologies and best practices, and I thrive in fast-paced environments where I can make a meaningful impact.
+      I am proficient in AWS and have a deep understanding of its security features, allowing me to design and implement secure infrastructure for our applications. I am also well-versed in the principles of Git and use it daily to manage and collaborate on code changes within my team.
+
+      Overall, I am a skilled devops engineer with a passion for using cutting-edge technologies to deliver reliable and secure systems in a fast-paced, agile environment. a skilled devops engineer with a passion for using cutting-edge technologies to deliver reliable and secure systems in a fast-paced, agile environment.ng ways to improve our processes and stay up to date on the latest technologies and best practices, and I thrive in fast-paced environments where I can make a meaningful impact.
 education:
     title: Education
     info:
