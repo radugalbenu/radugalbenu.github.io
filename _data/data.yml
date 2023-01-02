@@ -85,7 +85,8 @@ experiences:
           - Content Delivery Network: Fastly
           - IaC: Terragrunt/Terraform with S3 backends
 
-          In my current role, part of an Agile team working in a bigger SAFe environment, I have demonstrated the ability to build and maintain continuous delivery pipelines that are triggered by commits to the master branch, and to deploy applications to dev, staging, try, and production environments. I have also gained extensive experience in monitoring and maintaining the stability and performance of the environment.
+          In my current role, part of an Agile team working in a bigger SAFe environment, I have demonstrated the ability to build and maintain continuous delivery pipelines that are triggered by commits to the master branch,
+          and to deploy applications to 4 different environments that are used to improve the quality and reliability of the software before being realeased to production traffic. I have also gained extensive experience in monitoring and maintaining the stability and performance of the environment.
 
           I am proficient in GIT, Springboot, AWS, and Docker/EKS, and have strong experience with a range of other tools such as AWS Elasticache, Gatling, Sysdig Monitoring, Vector, Splunk, and Scalyr. I am skilled in using security tools such as Checkmarx, Sysdig Secure, and Blackduck, and have experience with secrets management using AWS Secrets Manager and Mozilla SOPS. I also have knowledge of IaC tools such as Terragrunt and Terraform.
       - role: Virtualization Engineer
