@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      As a DevOps engineer with a passion for cloud native technologies, microservices, and infrastructure as code, I have a strong track record of implementing security best practices on AWS and Kubernetes platforms in the FinTech industry. I have experience working within a scaled agile framework, and am skilled at following a GitOps approach to ensure consistent and reliable deployment of code.
+      As a DevOps engineer with a passion for cloud native technologies, microservices, and infrastructure as code, I have a strong track record of implementing security best practices on AWS and Kubernetes platforms in the FinTech industry. I have experience working within a Scaled Agile Framework, and I like following a GitOps approach to ensure consistent and reliable deployment of code.
 
       In my current role, I have successfully implemented and maintained a microservices architecture using Kubernetes, enabling our team to rapidly release new features and updates. I have also implemented infrastructure as code using tools such as Terraform, enabling us to manage our infrastructure in a transparent and automated manner.
 
