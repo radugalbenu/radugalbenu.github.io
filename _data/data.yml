@@ -75,9 +75,9 @@ experiences:
           - Cloud provider: AWS
           - Container repository: AWS ECS
           - Containerization: Docker/EKS (with clusters in multiple regions and autoscaling nodes using cluster-autoscaler for node scaling as well as HPA best on verious metrics for horizontal deployment scaling)
-          - Database: AWS Elasticache (using global datastore in multiple regions for HA and fast DR recovery)
+          - Database: AWS Elasticache (using global datastore in multiple regions for HA and fast DR)
           - Performance testing: Gatling
-          - EKS Monitoring: Sysdig Monitoring
+          - EKS Monitoring and observability: Sysdig Monitoring
           - Log collection: Vector
           - Logging solutions: Splunk and Scalyr
           - Security: Checkmarx (static code), Sysdig Secure (Docker image scanning), Blackduck (OSS)
@@ -85,9 +85,9 @@ experiences:
           - Content Delivery Network: Fastly
           - IaC: Terragrunt/Terraform with S3 backends
 
-          In my current role,part of an Agile team working in a bigger SAFe environment, I have demonstrated the ability to build and maintain continuous delivery pipelines that are triggered by commits to the master branch, and to deploy applications to dev, staging, try, and production environments. I have also gained extensive experience in monitoring and maintaining the stability and performance of the environment.
+          In my current role, part of an Agile team working in a bigger SAFe environment, I have demonstrated the ability to build and maintain continuous delivery pipelines that are triggered by commits to the master branch, and to deploy applications to dev, staging, try, and production environments. I have also gained extensive experience in monitoring and maintaining the stability and performance of the environment.
 
-          I am proficient in Git, Springboot, AWS, and Docker/EKS, and have strong experience with a range of other tools such as AWS Elasticache, Gatling, Sysdig Monitoring, Vector, Splunk, and Scalyr. I am skilled in using security tools such as Checkmarx, Sysdig Secure, and Blackduck, and have experience with secrets management using AWS Secrets Manager and Mozilla SOPS. I also have knowledge of IaC tools such as Terragrunt and Terraform.
+          I am proficient in GIT, Springboot, AWS, and Docker/EKS, and have strong experience with a range of other tools such as AWS Elasticache, Gatling, Sysdig Monitoring, Vector, Splunk, and Scalyr. I am skilled in using security tools such as Checkmarx, Sysdig Secure, and Blackduck, and have experience with secrets management using AWS Secrets Manager and Mozilla SOPS. I also have knowledge of IaC tools such as Terragrunt and Terraform.
       - role: Virtualization Engineer
         time: 08/2017 - 05/2017
         company: Atos - Timisoara, Romania
@@ -120,25 +120,39 @@ experiences:
 
 publications:
     title: Certifications and Trainings
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    Certifications:
+      - title: SAFe 5 Practitioner
+        authors: Scaled Agile Framework Certification Training
+        issued: 10/2021
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title:  ITIL Foundations in IT Service Management
+        issued: 02/2018
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      
+      - title: VMware Certified Professional 6 - Data Center Virtualization 
+        issued: 05/2018
+
+      - title: VMware vSphere 6 Foundations
+
+      - title: Converged Systems and Hybrid Cloud
+        authors: Dell EMC
+
+    Trainings:
+      - title: SAFe 5 Practitioner
+        authors: Scaled Agile Framework Certification Training
+        issued: 10/2021
+
+      - title:  ITIL Foundations in IT Service Management
+        issued: 02/2018
+
+      
+      - title: VMware Certified Professional 6 - Data Center Virtualization 
+        issued: 05/2018
+
+      - title: VMware vSphere 6 Foundations
+
+      - title: Converged Systems and Hybrid Cloud
+        authors: Dell EMC
 
 skills:
     title: Skills &amp; Proficiency
