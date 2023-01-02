@@ -111,13 +111,14 @@ experiences:
         time: 07/2016 - 08/2017
         company: TMK-ARTROM, Slatina, Romania
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          As a seasoned systems engineer with experience in virtualization, backup solutions, and Microsoft technologies, I am well-equipped to tackle a range of technical challenges. My skills include:
+
+          - Extensive experience with System Center Configuration Manager (SCCM) in a multi-site environment, including deployment, configuration, application packaging, update management, and PXE-based operating system deployment.
+          - Proficiency with VMware and Hyper-V virtualization technologies, as well as backup solutions such as Veeam and Symantec.
+          - Strong understanding of Microsoft Active Directory Domain Service, including the development of organizational units, management of user security with group policies, creation and maintenance of email addresses and distribution lists, and GPO creation and management.
+          - In-depth knowledge of Windows Server 2003, 2008, 2012 R2, and 2016, including the implementation of features and roles and the application of vendor patches to address bug fixes and security vulnerabilities.
+          - Experience with system monitoring tools such as Nagios and SCOM, as well as with helpdesk operations.
+          - Proficiency in networking, including Microsoft DNS, DHCP, and switching.
       - role: Systems Engineer
         time: 08/2015 - 07/2016
         company: PETATEK SRL-D, Craiova, Romania
