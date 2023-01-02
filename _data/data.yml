@@ -107,13 +107,9 @@ experiences:
         time: 08/2015 - 07/2016
         company: PETATEK SRL-D - Craiova, Romania
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+           I have experience in working with a range of Azure cloud services, including VMs, WebApps, databases, storage, DNS, and virtual networks,
+           in order to host a variety of projects. I have also worked with various webpage frameworks, such as WordPress. 
+           In addition, I have had the experience starting working with GIT and Jira for central versioning systems.
 projects:
     title: Projects
     intro: >
