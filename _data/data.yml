@@ -151,22 +151,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Terraform
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Git
         level: 98%
 
-      - name: Angular
+      - name: Kubernetes
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Helm
         level: 95%
 
-      - name: Ruby on Rails
+      - name: CI/CD
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Containerization
         level: 60%
 
 footer: >
