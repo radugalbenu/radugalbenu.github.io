@@ -70,20 +70,20 @@ experiences:
         details: |
           As a skilled DevOps Engineer, I have a strong background in designing and implementing continuous delivery pipelines using the following technology stack:
 
-          Git: Github
-          Application: Java, Springboot
-          Cloud provider: AWS
-          Container repository: AWS ECS
-          Containerization: Docker/EKS (with clusters in multiple regions and autoscaling nodes using cluster-autoscaler for node scaling as well as HPA best on verious metrics for horizontal deployment scaling)
-          Database: AWS Elasticache (using global datastore in multiple regions for HA and fast DR recovery)
-          Performance testing: Gatling
-          EKS Monitoring: Sysdig Monitoring
-          Log collection: Vector
-          Logging solutions: Splunk and Scalyr
-          Security: Checkmarx (static code), Sysdig Secure (Docker image scanning), Blackduck (OSS)
-          Secrets management: AWS Secrets Manager, Mozilla SOPS
-          CDN: Fastly
-          IaC: Terragrunt/Terraform with S3 backends
+          - Git: Github
+          - Application: Java, Springboot
+          - Cloud provider: AWS
+          - Container repository: AWS ECS
+          - Containerization: Docker/EKS (with clusters in multiple regions and autoscaling nodes using cluster-autoscaler for node scaling as well as HPA best on verious metrics for horizontal deployment scaling)
+          - Database: AWS Elasticache (using global datastore in multiple regions for HA and fast DR recovery)
+          - Performance testing: Gatling
+          - EKS Monitoring: Sysdig Monitoring
+          - Log collection: Vector
+          - Logging solutions: Splunk and Scalyr
+          - Security: Checkmarx (static code), Sysdig Secure (Docker image scanning), Blackduck (OSS)
+          - Secrets management: AWS Secrets Manager, Mozilla SOPS
+          - Content Delivery Network: Fastly
+          - IaC: Terragrunt/Terraform with S3 backends
 
           In my current role,part of an Agile team working in a bigger SAFe environment, I have demonstrated the ability to build and maintain continuous delivery pipelines that are triggered by commits to the master branch, and to deploy applications to dev, staging, try, and production environments. I have also gained extensive experience in monitoring and maintaining the stability and performance of the environment.
 
