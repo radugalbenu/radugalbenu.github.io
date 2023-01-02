@@ -46,12 +46,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      As a DevOps Engineer with experience in AWS, Cloud, Infrastructure as Code, and Kubernetes,
+      I have a strong background in automating and optimizing the build, test, and deployment of applications. 
+      I am skilled in defining and implementing infrastructure as code, which allows for efficient and reliable management of cloud resources.
+      My experience with Kubernetes has given me the ability to design and implement highly scalable and resilient containerized applications.
+      I am also well-versed in monitoring and maintaining production environments, ensuring that applications are running smoothly and reliably.
+      I am comfortable working in agile environments and am skilled in collaborating with cross-functional teams to deliver high-quality software.
 education:
     title: Education
     info:
