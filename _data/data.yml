@@ -149,26 +149,5 @@ projects:
 
       - title: "VMware vSphere: Troubleshooting Workshop [V6.5]"
 
-skills:
-    title: Skills
-
-    toolset:
-      - name: Terraform
-        level: 98%
-
-      - name: Git
-        level: 98%
-
-      - name: Kubernetes
-        level: 98%
-
-      - name: Helm
-        level: 95%
-
-      - name: CI/CD
-        level: 85%
-
-      - name: Containerization
-        level: 60%
 
 footer: >
