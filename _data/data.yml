@@ -66,11 +66,11 @@ experiences:
         details: | 
             As a DevOps engineer with experience in cloud-native infrastructure, automation, and secure deployments, I support development teams by enabling reliable, scalable, and observable systems. My work includes:
             
-            *Design and maintain CI/CD pipelines and infrastructure with Terraform, Terragrunt, and Helm for Kubernetes (EKS, OpenShift).
-            *Implement GitOps practices, manage certificate lifecycles, monitoring and observability, and work with proxies (NGINX, HAProxy, OpenShift Routes, Squid).
-            *Integrate security scanning for code, container images, and OSS dependencies in CI/CD pipelines.
-            *Contribute to PCI-DSS compliance, performance testing, and system reliability under load.
-            *Collaborate with cross-functional teams in a SAFe Agile environment to build secure, scalable systems.
+            - Design and maintain CI/CD pipelines and infrastructure with Terraform, Terragrunt, and Helm for Kubernetes (EKS, OpenShift).
+            - Implement GitOps practices, manage certificate lifecycles, monitoring and observability, and work with proxies (NGINX, HAProxy, OpenShift Routes, Squid).
+            - Integrate security scanning for code, container images, and OSS dependencies in CI/CD pipelines.
+            - Contribute to PCI-DSS compliance, performance testing, and system reliability under load.
+            - Collaborate with cross-functional teams in a SAFe Agile environment to build secure, scalable systems.
 
 
       - role: Virtualization Engineer
