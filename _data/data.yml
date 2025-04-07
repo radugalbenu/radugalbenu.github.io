@@ -71,16 +71,16 @@ experiences:
       - role: DevOps Engineer
         time: 05/2021 - Present
         company: Endava - Timisoara, Romania
-details: | 
-    In my current role, I design and maintain CI/CD pipelines and infrastructure using Terraform, Terragrunt, and Helm to support microservices deployed on Kubernetes (EKS and OpenShift), following GitOps practices across multiple environments.
+        details: | 
+            In my current role, I design and maintain CI/CD pipelines and infrastructure using Terraform, Terragrunt, and Helm to support microservices deployed on Kubernetes (EKS and OpenShift), following GitOps practices across multiple environments.
 
-    I've managed certificate lifecycle for service endpoints and worked with application proxies such as NGINX, HAProxy, OpenShift Routes, and Squid, along with CDNs fronting public-facing applications.
+            I've managed certificate lifecycle for service endpoints and worked with application proxies such as NGINX, HAProxy, OpenShift Routes, and Squid, along with CDNs fronting public-facing applications.
 
-    Security scanning for source code, container images, and OSS dependencies was integrated into pipelines, running automatically on new code commits.
+            Security scanning for source code, container images, and OSS dependencies was integrated into pipelines, running automatically on new code commits.
 
-    I’ve contributed to PCI-DSS compliance efforts and supported performance testing to ensure system reliability under load.
+            I’ve contributed to PCI-DSS compliance efforts and supported performance testing to ensure system reliability under load.
 
-    My responsibilities also included supporting PCI-DSS compliant services, where I participated in assessments, implemented remediations, and enforced infrastructure-level security controls. I operate within a SAFe Agile environment, working closely with developers, testers, and security engineers to deliver scalable, secure, and observable systems.
+            My responsibilities also included supporting PCI-DSS compliant services, where I participated in assessments, implemented remediations, and enforced infrastructure-level security controls. I operate within a SAFe Agile environment, working closely with developers, testers, and security engineers to deliver scalable, secure, and observable systems.
     
       - role: Virtualization Engineer
         time: 08/2017 - 05/2021
