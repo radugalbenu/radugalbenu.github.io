@@ -43,8 +43,11 @@ career-profile:
     summary: |
       
         I'm a DevOps/Cloud engineer focused on cloud-native technologies, microservices, and infrastructure as code, primarily in AWS and Kubernetes ecosystems. I apply GitOps principles to streamline and standardize deployments, working within a SAFe Agile environment alongside developers, testers, and security engineers.
+        
         In my current role, I help manage Kubernetes-based microservices using Helm, and I support multi-environment deployments using Helm charts, Terraform and Terragrunt. I handle certificate lifecycle management and work with proxies like NGINX, HAProxy, Squid, and OpenShift Routes. CDNs are used to secure and optimize traffic to public-facing applications.
+        
         Security scanning for code, container images, and open-source dependencies runs automatically in CI/CD pipelines. I also support PCI-DSS compliant services through participation in assessments, implementing remediations, and enforcing infrastructure-level controls.
+        
         My work spans security, scalability, and observability, with a focus on building reliable systems that meet performance expectations under load.
 education:
     title: Education
