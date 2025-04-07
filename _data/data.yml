@@ -39,6 +39,9 @@ sidebar:
 
         - item: Snowboarding
           link:
+        - item: Cycling
+          link:
+          
 
 
 career-profile:
@@ -46,7 +49,7 @@ career-profile:
     summary: |
       As a DevOps engineer with a passion for cloud native technologies, microservices, and infrastructure as code, I have a strong track record of implementing security best practices on AWS and Kubernetes platforms in the FinTech industry. I have experience working within a Scaled Agile Framework, and I like following a GitOps approach to ensure consistent and reliable deployment of code.
 
-      In my current role, I have successfully implemented and maintained a microservices architecture using Kubernetes, enabling our team to rapidly release new features and updates. I have also implemented infrastructure as code using tools such as Terraform, enabling us to manage our infrastructure in a transparent and automated manner.
+      In my current role, I have successfully implemented and maintained a microservices architecture using Kubernetes and Helm charts, enabling our team to rapidly release new features and updates. I have also implemented infrastructure as code using tools such as Terraform, enabling us to manage our infrastructure in a transparent and automated manner.
 
       I am proficient in AWS and have a deep understanding of its security features, allowing me to design and implement secure infrastructure for our applications. I am also well-versed in the principles of Git and use it daily to manage and collaborate on code changes within my team.
 
@@ -68,28 +71,17 @@ experiences:
       - role: DevOps Engineer
         time: 05/2021 - Present
         company: Endava - Timisoara, Romania
-        details: |
-          As a skilled DevOps Engineer, I have a strong background in designing and implementing continuous delivery pipelines using the following technology stack:
+details: | 
+    In my current role, I design and maintain CI/CD pipelines and infrastructure using Terraform, Terragrunt, and Helm to support microservices deployed on Kubernetes (EKS and OpenShift), following GitOps practices across multiple environments.
 
-          - Git: Github
-          - Application: Java, Springboot
-          - Cloud provider: AWS
-          - Container repository: AWS ECS
-          - Containerization: Docker/EKS (with clusters in multiple regions and autoscaling nodes using cluster-autoscaler for node scaling as well as HPA based on verious metrics for horizontal deployment scaling)
-          - Database: AWS Elasticache (using global datastore in multiple regions for HA and fast DR)
-          - Performance testing: Gatling
-          - EKS Monitoring and observability: Sysdig Monitoring
-          - Log collection: Vector
-          - Logging solutions: Splunk and Scalyr
-          - Security: Checkmarx (static code), Sysdig Secure (Docker image scanning), Blackduck (OSS)
-          - Secrets management: AWS Secrets Manager, Mozilla SOPS
-          - Content Delivery Network: Fastly
-          - IaC: Terragrunt/Terraform with S3 backends
+    I've managed certificate lifecycle for service endpoints and worked with application proxies such as NGINX, HAProxy, OpenShift Routes, and Squid, along with CDNs fronting public-facing applications.
 
-          In my current role, part of an Agile team working in a bigger SAFe environment, I have demonstrated the ability to build and maintain continuous delivery pipelines that are triggered by commits to the master branch,
-          and to deploy applications to 4 different environments that are used to improve the quality and reliability of the software before being realeased to production traffic. I have also gained extensive experience in monitoring and maintaining the stability and performance of the environment.
+    Security scanning for source code, container images, and OSS dependencies was integrated into pipelines, running automatically on new code commits.
 
-          I am proficient in GIT, Springboot, AWS, and Docker/EKS, and have strong experience with a range of other tools such as AWS Elasticache, Gatling, Sysdig Monitoring, Vector, Splunk, and Scalyr. I am skilled in using security tools such as Checkmarx, Sysdig Secure, and Blackduck, and have experience with secrets management using AWS Secrets Manager and Mozilla SOPS. I also have knowledge of IaC tools such as Terragrunt and Terraform.
+    I’ve contributed to PCI-DSS compliance efforts and supported performance testing to ensure system reliability under load.
+
+    My responsibilities also included supporting PCI-DSS compliant services, where I participated in assessments, implemented remediations, and enforced infrastructure-level security controls. I operate within a SAFe Agile environment, working closely with developers, testers, and security engineers to deliver scalable, secure, and observable systems.
+    
       - role: Virtualization Engineer
         time: 08/2017 - 05/2021
         company: Atos - Timisoara, Romania
