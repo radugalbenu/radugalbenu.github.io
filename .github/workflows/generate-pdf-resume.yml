@@ -54,6 +54,7 @@ jobs:
         run: |
           PDF_LINK="${REPO_URL}/assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf"
           python3 <<EOF
+          import os
           from ruamel.yaml import YAML
           yaml = YAML()
           yaml.preserve_quotes = True
