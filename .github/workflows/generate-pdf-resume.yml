@@ -68,5 +68,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add _data/data.yml assets/files/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Update PDF resume and link in data.yml (PDF for commit ${{ steps.vars.outputs.sha_short }})"
+          git pull --rebase origin master 
           git push
