@@ -51,7 +51,7 @@ jobs:
       - name: Update data.yml with new PDF link
         run: |
           PDF_LINK="${REPO_URL}/assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf"
-          awk -v newlink="$PDF_LINK" lineno="$PDF_LINE_NUMBER" 'NR==lineno{sub(/pdf:.*/, "pdf: " newlink " # link to your resume in PDF format")} {print}' _data/data.yml > _data/data.yml.tmp && mv _data/data.yml.tmp _data/data.yml
+          awk -v newlink="$PDF_LINK" -v lineno="$PDF_LINE_NUMBER" 'NR==lineno{sub(/pdf:.*/, "pdf: " newlink " # link to your resume in PDF format")} {print}' _data/data.yml > _data/data.yml.tmp && mv _data/data.yml.tmp _data/data.yml
 
       - name: Commit and push changes
         run: |
