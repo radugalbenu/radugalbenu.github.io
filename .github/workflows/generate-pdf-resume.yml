@@ -37,10 +37,9 @@ jobs:
       - name: Generate PDF from resume page
         uses: misaelnieto/web_to_pdf_action@master
         with:
-          webPageURL: ${REPO_URL}/print
+          webPageURL: ${{ env.REPO_URL }}/print
           outputFile: ./assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf
           usePuppeteer: true
-          useScreen: true
           pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
       - name: Update data.yml with new PDF link
