@@ -51,7 +51,17 @@ jobs:
       - name: Update data.yml with new PDF link
         run: |
           PDF_LINK="${REPO_URL}/assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf"
-          awk -v newlink="$PDF_LINK" -v lineno="$PDF_LINE_NUMBER" 'NR==lineno{sub(/pdf:.*/, "pdf: " newlink " # link to your resume in PDF format")} {print}' _data/data.yml > _data/data.yml.tmp && mv _data/data.yml.tmp _data/data.yml
+          python3 <<EOF
+          from ruamel.yaml import YAML
+          yaml = YAML()
+          yaml.preserve_quotes = True
+          path = "_data/data.yml"
+          with open(path, "r") as f:
+              data = yaml.load(f)
+          data['sidebar']['pdf'] = PDF_LINK
+          with open(path, "w") as f:
+              yaml.dump(data, f)
+          EOF
 
       - name: Commit and push changes
         run: |
