@@ -13,8 +13,11 @@ jobs:
   generate_and_update_pdf:
     runs-on: ubuntu-latest
     env:
-     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     REPO_URL: https://radugalbenu.github.io
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_URL: https://radugalbenu.github.io
+      # Set the line number for the pdf: field in _data/data.yml.
+      # If you change the structure of data.yml, update this value accordingly.
+      PDF_LINE_NUMBER: 14
 
     steps:
       - name: Checkout repository
@@ -44,19 +47,8 @@ jobs:
 
       - name: Update data.yml with new PDF link
         run: |
-          pip install ruamel.yaml
           PDF_LINK="${REPO_URL}/assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf"
-          python3 <<EOF
-          from ruamel.yaml import YAML
-          yaml = YAML()
-          yaml.preserve_quotes = True
-          path = "_data/data.yml"
-          with open(path, "r") as f:
-              data = yaml.load(f)
-          data['sidebar']['pdf'] = PDF_LINK
-          with open(path, "w") as f:
-              yaml.dump(data, f)
-          EOF
+          awk -v newlink="$PDF_LINK" lineno="$PDF_LINE_NUMBER" 'NR==lineno{sub(/pdf:.*/, "pdf: " newlink " # link to your resume in PDF format")} {print}' _data/data.yml > _data/data.yml.tmp && mv _data/data.yml.tmp _data/data.yml
 
       - name: Commit and push changes
         run: |
