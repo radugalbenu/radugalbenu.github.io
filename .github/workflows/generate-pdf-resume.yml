@@ -60,7 +60,7 @@ jobs:
           path = "_data/data.yml"
           with open(path, "r") as f:
               data = yaml.load(f)
-          data['sidebar']['pdf'] = PDF_LINK
+          data['sidebar']['pdf'] = os.environ["PDF_LINK"]
           with open(path, "w") as f:
               yaml.dump(data, f)
           EOF
