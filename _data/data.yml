@@ -1,138 +1,138 @@
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: false   # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: true   # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Radu Galbenu
-    tagline: DevOps/Cloud Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Radu Galbenu
+  tagline: DevOps/Cloud Engineer
+  avatar: profile.png    #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: radugalbenu@gmail.com
-    phone: (+40)764 443 330
-    timezone:  EEST / Bucharest Time (GMT+2)
-    citizenship: Timisoara, Romania
-    linkedin: radugalbenu
-    pdf: https://radugalbenu.github.io/assets/files/my_resume.pdf # link to your resume in PDF format
+  email: radugalbenu@gmail.com
+  phone: (+40)764 443 330
+  timezone: EEST / Bucharest Time (GMT+2)
+  citizenship: Timisoara, Romania
+  linkedin: radugalbenu
+  pdf: https://radugalbenu.github.io/assets/files/my_cv_3b2fe3d.pdf # link to your resume in PDF format
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Romanian
-          level: Native
+  languages:
+    title: Languages
+    info:
+    - idiom: Romanian
+      level: Native
 
-        - idiom: English
-          level: Business Fluent
+    - idiom: English
+      level: Business Fluent
 
 
-    interests:
-      title: Interests
-      info:
-        - item: Technology
-          link:
+  interests:
+    title: Interests
+    info:
+    - item: Technology
+      link:
 
-        - item: Snowboarding
-          link:
-        - item: Cycling
-          link:
-        - item: Self-hosting & Homelab Projects
-          link:
+    - item: Snowboarding
+      link:
+    - item: Cycling
+      link:
+    - item: Self-hosting & Homelab Projects
+      link:
 
 
 career-profile:
-    title: Career Profile
-    summary: |
+  title: Career Profile
+  summary: |2
+
+    I'm a DevOps/Cloud engineer focused on cloud-native technologies, microservices, and infrastructure as code, primarily in AWS and Kubernetes ecosystems. I apply GitOps principles to streamline and standardize deployments, working within a SAFe Agile environment alongside developers, testers, and security engineers.
       
-      I'm a DevOps/Cloud engineer focused on cloud-native technologies, microservices, and infrastructure as code, primarily in AWS and Kubernetes ecosystems. I apply GitOps principles to streamline and standardize deployments, working within a SAFe Agile environment alongside developers, testers, and security engineers.
-        
-      In my current role, I help manage Kubernetes-based microservices using Helm, and I support multi-environment deployments using Terraform and Terragrunt. I handle certificate lifecycle management and work with proxies like NGINX, HAProxy, Squid, and OpenShift Routes. CDNs are used to secure and optimize traffic to public-facing applications.
-        
-      Security scanning for code, container images, and open-source dependencies runs automatically in CI/CD pipelines. I also support PCI-DSS compliant services through participation in assessments, implementing remediations, and enforcing infrastructure-level controls.
-        
-      My work spans security, scalability, and observability, with a focus on building reliable systems that meet performance expectations under load.
+    In my current role, I help manage Kubernetes-based microservices using Helm, and I support multi-environment deployments using Terraform and Terragrunt. I handle certificate lifecycle management and work with proxies like NGINX, HAProxy, Squid, and OpenShift Routes. CDNs are used to secure and optimize traffic to public-facing applications.
+      
+    Security scanning for code, container images, and open-source dependencies runs automatically in CI/CD pipelines. I also support PCI-DSS compliant services through participation in assessments, implementing remediations, and enforcing infrastructure-level controls.
+      
+    My work spans security, scalability, and observability, with a focus on building reliable systems that meet performance expectations under load.
 education:
-    title: Education
-    info:
-      - degree: BSc in Computer Science
-        university: Faculty of Automation, Computers and Electronics - Craiova
-        time: 2012 - 2017
+  title: Education
+  info:
+  - degree: BSc in Computer Science
+    university: Faculty of Automation, Computers and Electronics - Craiova
+    time: 2012 - 2017
         #details: |
-      - degree: High School
-        university: Colegiul Tehnic Metalurgic - Slatina
-        time: 2008 - 2012
+  - degree: High School
+    university: Colegiul Tehnic Metalurgic - Slatina
+    time: 2008 - 2012
         #details: |
 experiences:
-    title: Experiences
-    info:
-      - role: DevOps Engineer
-        time: 05/2021 - Present
-        company: Endava - Timisoara, Romania
-        details: | 
-            As a DevOps engineer with experience in cloud-native infrastructure, automation, and secure deployments, I support development teams by enabling reliable, scalable, and observable systems. My work includes:
-            
-            - Design and maintain CI/CD pipelines and infrastructure with Terraform, Terragrunt, and Helm for Kubernetes (EKS, OpenShift).
-            - Implement GitOps practices, manage certificate lifecycles, monitoring and observability, and work with proxies (NGINX, HAProxy, OpenShift Routes, Squid).
-            - Integrate security scanning for code, container images, and OSS dependencies in CI/CD pipelines.
-            - Contribute to PCI-DSS compliance, performance testing, and system reliability under load.
-            - Collaborate with cross-functional teams in a SAFe Agile environment to build secure, scalable systems.
+  title: Experiences
+  info:
+  - role: DevOps Engineer
+    time: 05/2021 - Present
+    company: Endava - Timisoara, Romania
+    details: |
+      As a DevOps engineer with experience in cloud-native infrastructure, automation, and secure deployments, I support development teams by enabling reliable, scalable, and observable systems. My work includes:
+
+      - Design and maintain CI/CD pipelines and infrastructure with Terraform, Terragrunt, and Helm for Kubernetes (EKS, OpenShift).
+      - Implement GitOps practices, manage certificate lifecycles, monitoring and observability, and work with proxies (NGINX, HAProxy, OpenShift Routes, Squid).
+      - Integrate security scanning for code, container images, and OSS dependencies in CI/CD pipelines.
+      - Contribute to PCI-DSS compliance, performance testing, and system reliability under load.
+      - Collaborate with cross-functional teams in a SAFe Agile environment to build secure, scalable systems.
 
 
-      - role: Virtualization Engineer
-        time: 08/2017 - 05/2021
-        company: Atos - Timisoara, Romania
-        details: |
-          As a VMware and Virtualization Engineer, I was involved in designing,
-          implementing, and maintaining virtualization environments using VMware products in on-premise datacenters and in production environments with SAN attached storage.
-          My responsibilities included configuring and managing ESXi hosts, implementing and managing vSphere Replication and vSphere Update Manager, and monitoring and maintaining virtualization environments to support availability and performance.
-          I worked with cross-functional teams to design and implement infrastructure configurations and migrations.
-          
-      - role: Systems Engineer
-        time: 07/2016 - 08/2017
-        company: TMK-ARTROM - Slatina, Romania
-        details: |
-          As a systems engineer with experience in virtualization, backup solutions, and Microsoft technologies, I worked on various technical challenges. My work included:
+  - role: Virtualization Engineer
+    time: 08/2017 - 05/2021
+    company: Atos - Timisoara, Romania
+    details: |
+      As a VMware and Virtualization Engineer, I was involved in designing,
+      implementing, and maintaining virtualization environments using VMware products in on-premise datacenters and in production environments with SAN attached storage.
+      My responsibilities included configuring and managing ESXi hosts, implementing and managing vSphere Replication and vSphere Update Manager, and monitoring and maintaining virtualization environments to support availability and performance.
+      I worked with cross-functional teams to design and implement infrastructure configurations and migrations.
 
-          - Hands-on experience with System Center Configuration Manager (SCCM) in a multi-site environment, including deployment, configuration, application packaging, update management, and PXE-based operating system deployment.
-          - Work with VMware and Hyper-V virtualization technologies, as well as backup solutions such as Veeam and Symantec.
-          - Familiarity with Microsoft Active Directory Domain Service, including the development of organizational units, management of user security with group policies, creation and maintenance of email addresses and distribution lists, and GPO creation and management.
-          - Knowledge of Windows Server 2003, 2008, 2012 R2, and 2016, including the implementation of features and roles, and applying vendor patches for bug fixes and security updates.
-          - Use of system monitoring tools such as Nagios and SCOM, as well as support in helpdesk operations.
-          - Experience with networking components, including Microsoft DNS, DHCP, and switching.
-      - role: Systems Engineer
-        time: 08/2015 - 07/2016
-        company: PETATEK SRL-D - Craiova, Romania
-        details: |
-           I worked with a range of Azure cloud services, including VMs, WebApps, databases, storage, DNS, and virtual networks,
-           to host various projects. I also used different webpage frameworks, such as WordPress. 
-           Additionally, I began using GIT and Jira for version control and task management.
+  - role: Systems Engineer
+    time: 07/2016 - 08/2017
+    company: TMK-ARTROM - Slatina, Romania
+    details: |
+      As a systems engineer with experience in virtualization, backup solutions, and Microsoft technologies, I worked on various technical challenges. My work included:
+
+      - Hands-on experience with System Center Configuration Manager (SCCM) in a multi-site environment, including deployment, configuration, application packaging, update management, and PXE-based operating system deployment.
+      - Work with VMware and Hyper-V virtualization technologies, as well as backup solutions such as Veeam and Symantec.
+      - Familiarity with Microsoft Active Directory Domain Service, including the development of organizational units, management of user security with group policies, creation and maintenance of email addresses and distribution lists, and GPO creation and management.
+      - Knowledge of Windows Server 2003, 2008, 2012 R2, and 2016, including the implementation of features and roles, and applying vendor patches for bug fixes and security updates.
+      - Use of system monitoring tools such as Nagios and SCOM, as well as support in helpdesk operations.
+      - Experience with networking components, including Microsoft DNS, DHCP, and switching.
+  - role: Systems Engineer
+    time: 08/2015 - 07/2016
+    company: PETATEK SRL-D - Craiova, Romania
+    details: |
+      I worked with a range of Azure cloud services, including VMs, WebApps, databases, storage, DNS, and virtual networks,
+      to host various projects. I also used different webpage frameworks, such as WordPress. 
+      Additionally, I began using GIT and Jira for version control and task management.
 publications:
-    title: Certifications
-    papers:
-    - title: SAFe 5 Practitioner
-      authors: Scaled Agile Framework Certification Training
-      conference: 10/2021
+  title: Certifications
+  papers:
+  - title: SAFe 5 Practitioner
+    authors: Scaled Agile Framework Certification Training
+    conference: 10/2021
 
-    - title:  ITIL Foundations in IT Service Management
-      conference: 02/2018
+  - title: ITIL Foundations in IT Service Management
+    conference: 02/2018
 
-    
-    - title: VMware Certified Professional 6 - Data Center Virtualization 
-      conference: 05/2018
 
-    - title: VMware vSphere 6 Foundations
+  - title: VMware Certified Professional 6 - Data Center Virtualization
+    conference: 05/2018
 
-    - title: Converged Systems and Hybrid Cloud
-      authors: Dell EMC
+  - title: VMware vSphere 6 Foundations
+
+  - title: Converged Systems and Hybrid Cloud
+    authors: Dell EMC
 
 projects:
-    title: Trainings
-    assignments:
-      - title: SAFe for Teams
+  title: Trainings
+  assignments:
+  - title: SAFe for Teams
 
-      - title: Red Hat Enterprise Linux 7 
-        tagline: RH124
+  - title: Red Hat Enterprise Linux 7
+    tagline: RH124
 
-      - title: "VMware vSphere: Troubleshooting Workshop [V6.5]"
+  - title: "VMware vSphere: Troubleshooting Workshop [V6.5]"
 
 
 footer: >
