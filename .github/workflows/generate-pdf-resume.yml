@@ -1,12 +1,16 @@
 name: Generate Resume PDF
 
 on:
-  push:
-    branches: [master]
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
+  # push:
+  #   branches: [master]
     # Avoid triggering on changes to data.yml to prevent loops
-    paths-ignore:
-      - '_data/data.yml'
-      - 'assets/files/*'
+    # paths-ignore:
+    #   - '_data/data.yml'
+    #   - 'assets/files/*'
   workflow_dispatch:
 
 jobs:
@@ -32,10 +36,10 @@ jobs:
         id: vars
         run: echo "sha_short=$(echo $GITHUB_SHA | cut -c1-7)" >> $GITHUB_OUTPUT
 
-      - name: Wait for the site to be built
-        run: |
-          echo "Waiting for the site to be built..."
-          sleep 60  # Adjust the sleep time as necessary
+      # - name: Wait for the site to be built
+      #   run: |
+      #     echo "Waiting for the site to be built..."
+      #     sleep 60  # Adjust the sleep time as necessary
 
       - name: Generate PDF from resume page
         uses: misaelnieto/web_to_pdf_action@master
