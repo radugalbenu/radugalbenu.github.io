@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate_resume:
+  generate_and_update_pdf:
     runs-on: ubuntu-latest
     env:
      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
