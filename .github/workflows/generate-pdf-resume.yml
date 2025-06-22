@@ -2,11 +2,12 @@ name: Generate Resume PDF
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     # Avoid triggering on changes to data.yml to prevent loops
     paths-ignore:
       - '_data/data.yml'
       - 'assets/files/*'
+	workflow_dispatch:
 
 jobs:
   generate_resume:
