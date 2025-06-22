@@ -64,8 +64,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add _data/data.yml assets/files/
-          git commit -m "Update PDF resume and link in data.yml"
+          git commit -m "Update PDF resume and link in data.yml (PDF for commit ${{ steps.vars.outputs.sha_short }})"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_URL: https://radugalbenu.github.io
