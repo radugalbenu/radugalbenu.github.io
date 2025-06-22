@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - '_data/data.yml'
       - 'assets/files/*'
-	workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   generate_resume:
