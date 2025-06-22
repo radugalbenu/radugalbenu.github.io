@@ -13,6 +13,7 @@ sidebar:
     timezone:  EEST / Bucharest Time (GMT+2)
     citizenship: Timisoara, Romania
     linkedin: radugalbenu
+    pdf: https://radugalbenu.github.io/assets/files/my_resume.pdf # link to your resume in PDF format
 
     languages:
       title: Languages
