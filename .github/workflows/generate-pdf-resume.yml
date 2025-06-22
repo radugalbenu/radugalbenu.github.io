@@ -12,19 +12,32 @@ on:
 jobs:
   generate_resume:
     runs-on: ubuntu-latest
+    env:
+     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     REPO_URL: https://radugalbenu.github.io
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+          cache: 'pip'
       - name: Get short commit SHA
         id: vars
         run: echo "sha_short=$(echo $GITHUB_SHA | cut -c1-7)" >> $GITHUB_OUTPUT
 
+      - name: Wait for the site to be built
+        run: |
+          echo "Waiting for the site to be built..."
+          sleep 60  # Adjust the sleep time as necessary
+
       - name: Generate PDF from resume page
         uses: misaelnieto/web_to_pdf_action@master
         with:
-          webPageURL: https://radugalbenu.github.io/print
+          webPageURL: ${REPO_URL}/print
           outputFile: ./assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf
           usePuppeteer: true
           useScreen: true
@@ -33,7 +46,7 @@ jobs:
       - name: Update data.yml with new PDF link
         run: |
           pip install ruamel.yaml
-          PDF_LINK="https://radugalbenu.github.io/assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf"
+          PDF_LINK="${REPO_URL}/assets/files/my_cv_${{ steps.vars.outputs.sha_short }}.pdf"
           python3 <<EOF
           from ruamel.yaml import YAML
           yaml = YAML()
@@ -55,3 +68,4 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_URL: https://radugalbenu.github.io
