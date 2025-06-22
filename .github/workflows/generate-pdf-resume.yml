@@ -8,7 +8,7 @@ on:
   push:
     branches: [master]
     # Avoid triggering on changes to data.yml to prevent loops
-      paths-ignore:
+    paths-ignore:
       - '_data/data.yml'
       - 'assets/files/*'
   workflow_dispatch:
