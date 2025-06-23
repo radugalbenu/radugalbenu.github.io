@@ -39,7 +39,14 @@ jobs:
         run: |
           echo "Waiting for the site to be built..."
           sleep 60  # Adjust the sleep time as necessary
-
+          - name: Get deployed URL from pages-build-deployment
+          id: get_url
+          run: |
+            url=$(gh api /repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }} --jq '.outputs.deployment_url')
+            echo "DEPLOY_URL=$url" >> $GITHUB_ENV
+          env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
       - name: Generate PDF from resume page
         uses: misaelnieto/web_to_pdf_action@master
         with:
