@@ -39,6 +39,10 @@ jobs:
         run: |
           echo "Waiting for the site to be built..."
           sleep 60  # Adjust the sleep time as necessary
+          
+      - name: Install GitHub CLI
+        run: sudo apt-get update && sudo apt-get install -y gh
+
       - name: Get deployed URL from pages-build-deployment
         id: get_url
         run: |
